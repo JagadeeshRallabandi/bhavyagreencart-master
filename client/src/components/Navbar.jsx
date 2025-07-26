@@ -45,7 +45,7 @@ const Navbar = () => {
 
                 {!user && (
                     <a
-                        href="https://github.com/JagadeeshRallabandi/jagasgreencart"
+                        href="https://github.com/DanalaBhavya/bhavyagreencart"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="lg:block border border-gray-300 px-4 py-1.5 rounded-full text-sm hover:bg-gray-100 transition"
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <NavLink to='/' className="hover:text-primary transition">Home</NavLink>
                 <NavLink to='/products' className="hover:text-primary transition">All Products</NavLink>
                 <a
-                    href="https://jagadeeshrportfolio.vercel.app"
+                    href="https://dbhavyaportfolio.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition"
@@ -85,7 +85,7 @@ const Navbar = () => {
                         <ul className='hidden group-hover:block absolute top-10 right-0 bg-white shadow border border-gray-200 py-2.5 w-30 rounded-md text-sm z-40' >
                             <li onClick={() => navigate("my-orders")} className='p-1.5 pl-3 hover:bg-primary/10 cursor-pointer'>My Orders</li>
                             <li
-                                onClick={() => window.open("https://github.com/JagadeeshRallabandi/jagasgreencart", "_blank")}
+                                onClick={() => window.open("https://github.com/DanalaBhavya/bhavyagreencart", "_blank")}
                                 className='p-1.5 pl-3 hover:bg-primary/10 cursor-pointer'
                             >
                                 Source Code
@@ -114,7 +114,7 @@ const Navbar = () => {
 
                     {!user && (
                         <a
-                            href="https://github.com/JagadeeshRallabandi/jagasgreencart"
+                            href="https://github.com/DanalaBhavya/bhavyagreencart"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="lg:block border border-gray-300 px-4 py-1.5 rounded-full text-sm hover:bg-gray-100 transition"
@@ -130,7 +130,7 @@ const Navbar = () => {
                         <>
                             <NavLink to='/my-orders' className="hover:text-primary transition" onClick={() => setOpen(false)}>My Orders</NavLink>
                             <a
-                                href="https://github.com/JagadeeshRallabandi/jagasgreencart"
+                                href="https://github.com/DanalaBhavya/bhavyagreencart"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-primary transition"
@@ -141,7 +141,7 @@ const Navbar = () => {
                     )}
 
                     <a
-                        href="https://jagadeeshrportfolio.vercel.app"
+                        href="https://dbhavyaportfolio.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-primary transition"
